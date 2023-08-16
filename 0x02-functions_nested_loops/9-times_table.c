@@ -25,17 +25,17 @@ void times_table(void)
 				while (times >= 1)
 				{
 					times /= 10;
-					space--;
+					spaces--;
 				}
 			}
 
 			if (i != 0)
 			{
-				_pitchar(',');
-				while (space != 0)
+				_putchar(',');
+				while (spaces != 0)
 				{
 					_putchar(' ');
-					space--;
+					spaces--;
 				}
 			}
 			_putchar(times);
