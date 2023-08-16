@@ -2,14 +2,14 @@
 
 /**
  * jack_bauer - print times of day
- * 
+ *
  * Return: void
  */
 void jack_bauer(void)
 {
-	int s,m,h,h2;
+	int s, m, h, h2;
 
-	h2 =48;
+	h2 = 48;
 	while (h2 <= 50)
 	{
 		h = 48;
