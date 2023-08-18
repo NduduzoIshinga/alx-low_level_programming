@@ -14,15 +14,18 @@ void print_diagonal(int n)
 	{
 		_putchar('\n');
 	}
-	while (n > 0)
+	while (n >= 0)
 	{
-		for (i = 1; i <= k; i++)
+		if (n != 0)
 		{
-			_putchar(' ');
+			for (i = 1; i <= k; i++)
+			{
+				_putchar(' ');
+			}
+			_putchar('\');
+			k++;
 		}
-		_putchar('\');
-		n--;
-		k++;
+			n--;
 		_putchar('\n');
 	}
 }
