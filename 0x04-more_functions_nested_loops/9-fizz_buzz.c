@@ -7,7 +7,7 @@
  */
 void fizz_buzz(void)
 {
-	int i, mod3, mod5
+	int i, mod3, mod5;
 
 	for (i = 1; i <= 100; i++)
 	{

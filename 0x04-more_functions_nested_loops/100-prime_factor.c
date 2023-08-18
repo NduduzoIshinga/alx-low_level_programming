@@ -7,7 +7,8 @@
  */
 int prime(void)
 {
-	int count, n, p, big;
+	int count, p, big;
+	long int n;
 
 	for (n = 2; n <= 612852475143; n++)
 	{
@@ -24,7 +25,7 @@ int prime(void)
 			}
 			if (count == 2)
 			{
-				big = n
+				big = n;
 			}
 		}
 	}
