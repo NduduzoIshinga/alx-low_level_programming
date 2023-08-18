@@ -17,6 +17,10 @@ void print_number(int n)
 		q++;
 	}
 	n = n * 10;
+	if (n < 0)
+	{
+		_putchar('-');
+	}
 	for (i = 1; i <= q; i++)
 	{
 		n /= 10;
