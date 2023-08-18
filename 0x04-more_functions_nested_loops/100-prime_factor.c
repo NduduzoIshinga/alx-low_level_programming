@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - prints highest prime factor
+ * prime - prints highest prime factor
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int prime(void)
 {
 	int count, n, p, big;
 
