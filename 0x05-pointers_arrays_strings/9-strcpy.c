@@ -8,21 +8,18 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	char copy[], orig[];
 	int i, check = 0;
 
-	orig = *src;
 	i = 0;
-	while (check = 0)
+	while (check == 0)
 	{
-		copy[i] = orig[i];
-		if (orig[i] == '\0')
+		dest[i] = src[i];
+		if (src[i] == '\0')
 		{
 			check = 1;
 		}
 		i++;
 
 	}
-	*dest = copy;
 	return (dest);
 }
