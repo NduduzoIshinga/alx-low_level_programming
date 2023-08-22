@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_array - prints n values of an array
@@ -13,7 +14,7 @@ void print_array(int *a, int n)
 	i = 0;
 	while (i < n)
 	{
-		_putchar(a[i]);
+		printf("%d", a[i]);
 		i++;
 		if (i != n)
 		{
