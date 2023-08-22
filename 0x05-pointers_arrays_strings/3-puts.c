@@ -8,9 +8,8 @@
 void _puts(char *str)
 {
 	int i;
-	char string[];
+	char string[] = *s;
 
-	string = *str;
 	i = 0;
 	while (string[i] != '\0')
 	{
