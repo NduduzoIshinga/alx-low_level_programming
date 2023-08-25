@@ -8,7 +8,7 @@
 char *string_toupper(char *str)
 {
 	int i;
-	char c;
+	int c;
 
 	i = 0;
 	while (i != '\0')
@@ -16,7 +16,7 @@ char *string_toupper(char *str)
 		if (str[i] <= 122 && str[i] >= 97)
 		{
 			c = str[i];
-			str[i]= c - 32;
+			str[i] = c - 32;
 		}
 		i++;
 	}
