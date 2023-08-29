@@ -8,5 +8,8 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 int isin(char *str, char c);
 char *_strpbrk(char *s, char *accept);
+int allin(char *str, char *c, int n);
+int lenstr(char *s);
+char *_strstr(char *haystack, char *needle);
 
 #endif
