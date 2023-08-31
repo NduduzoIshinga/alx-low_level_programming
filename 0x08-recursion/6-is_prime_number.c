@@ -26,13 +26,13 @@ int prime_div(int n, int div)
 	{
 		return (0);
 	}
-	if (n % div == 0)
-	{
-		return (0);
-	}
 	if (div == 1)
 	{
 		return (1);
+	}
+	if (n % div == 0)
+	{
+		return (0);
 	}
 	return (prime_div(n, div - 1));
 }
